@@ -32,7 +32,7 @@ int? getPublicationYear(){
 
 int? getBookAge(){
     int curentYear = DateTime.now().year;
-    return publicationYear! - curentYear;
+    return curentYear - publicationYear! ;
 }
 
 
